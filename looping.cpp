@@ -76,4 +76,9 @@ switch (pilihan) {
     inputAngka();
     tampilkanHasilFibonacci();
     break;
+
+    case 0:
+    cout << "Program selesai. Sampai jumpa!" << endl;
+    berjalan = false;
+    break;
 }
