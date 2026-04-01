@@ -81,4 +81,8 @@ switch (pilihan) {
     cout << "Program selesai. Sampai jumpa!" << endl;
     berjalan = false;
     break;
+
+    default:
+    cout << "Pilihan tidak valid! Masukkan angka 0, 1, atau 2." << endl;
+    break;
 }
