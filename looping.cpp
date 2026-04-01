@@ -55,3 +55,11 @@ void menu() {
     cout << "Pilih menu: ";
     cin >> pilihan;
 }
+
+int main() {
+    bool berjalan = true;
+    while (berjalan) {
+        // Logika switch case akan masuk di sini
+    }
+    return 0;
+}
