@@ -71,4 +71,9 @@ switch (pilihan) {
     inputAngka();
     tampilkanHasilPrima();
     break;
+
+    case 2:
+    inputAngka();
+    tampilkanHasilFibonacci();
+    break;
 }
