@@ -7,3 +7,6 @@ int main() {
 
 int angka;
 int pilihan;
+
+bool cekPrima(int n);
+bool cekFibonacci(int n);
