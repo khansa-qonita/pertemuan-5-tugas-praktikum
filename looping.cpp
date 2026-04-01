@@ -54,33 +54,28 @@ void menu() {
 
 int main() {
     bool berjalan = true;
+
     while (berjalan) {
-        // Logika switch case akan masuk di sini
-    }
-    return 0;
+        menu(); // Memanggil menu agar muncul di layar
 
-
-//menu();
-
-    switch (pilihan) {
-        case 1:
-            inputAngka();
-            tampilkanHasilPrima();
-            break;
-
-        case 2:
-            inputAngka();
-            tampilkanHasilFibonacci();
-            break;
-
-        case 0:
-            cout << "Program selesai. Sampai jumpa!" << endl;
-            berjalan = false;
-            break;
-
-        default:
-            cout << "Pilihan tidak valid! Masukkan angka 0, 1, atau 2." << endl;
-            break;
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilkanHasilPrima();
+                break;
+            case 2:
+                inputAngka();
+                tampilkanHasilFibonacci();
+                break;
+            case 0:
+                cout << "Program selesai. Sampai jumpa!" << endl;
+                berjalan = false;
+                break;
+            default:
+                cout << "Pilihan tidak valid! Masukkan angka 0, 1, atau 2." << endl;
+                break;
         }
-    cout << "================================" << endl;
+    }
+
+    return 0;
 }
