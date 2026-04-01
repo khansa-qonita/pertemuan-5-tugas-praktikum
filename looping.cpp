@@ -65,3 +65,6 @@ int main() {
 }
 
 //menu();
+
+switch (pilihan) {
+}
