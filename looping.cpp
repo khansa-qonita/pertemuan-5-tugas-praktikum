@@ -41,3 +41,8 @@ void tampilkanHasilPrima() {
     if (cekPrima(angka)) cout << "Hasil: " << angka << " adalah Bilangan Prima." << endl;
     else cout << "Hasil: " << angka << " BUKAN Bilangan Prima." << endl;
 }
+
+void tampilkanHasilFibonacci() {
+    if (cekFibonacci(angka)) cout << "Hasil: " << angka << " adalah bagian dari deret Fibonacci." << endl;
+    else cout << "Hasil: " << angka << " BUKAN bagian dari deret Fibonacci." << endl;
+}
