@@ -67,4 +67,8 @@ int main() {
 //menu();
 
 switch (pilihan) {
+    case 1:
+    inputAngka();
+    tampilkanHasilPrima();
+    break;
 }
