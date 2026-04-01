@@ -66,25 +66,25 @@ int main() {
 
 //menu();
 
-switch (pilihan) {
+    switch (pilihan) {
         case 1:
-        inputAngka();
-        tampilkanHasilPrima();
-        break;
+            inputAngka();
+            tampilkanHasilPrima();
+            break;
 
         case 2:
-        inputAngka();
-        tampilkanHasilFibonacci();
-        break;
+            inputAngka();
+            tampilkanHasilFibonacci();
+            break;
 
         case 0:
-        cout << "Program selesai. Sampai jumpa!" << endl;
-        berjalan = false;
-        break;
+            cout << "Program selesai. Sampai jumpa!" << endl;
+            berjalan = false;
+            break;
 
         default:
-        cout << "Pilihan tidak valid! Masukkan angka 0, 1, atau 2." << endl;
-        break;
-    }
+            cout << "Pilihan tidak valid! Masukkan angka 0, 1, atau 2." << endl;
+            break;
+        }
     cout << "================================" << endl;
 }
