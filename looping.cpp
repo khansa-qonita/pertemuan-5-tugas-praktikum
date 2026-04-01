@@ -46,3 +46,12 @@ void tampilkanHasilFibonacci() {
     if (cekFibonacci(angka)) cout << "Hasil: " << angka << " adalah bagian dari deret Fibonacci." << endl;
     else cout << "Hasil: " << angka << " BUKAN bagian dari deret Fibonacci." << endl;
 }
+
+void menu() {
+    cout << "\n--- MENU PENGECEKAN BILANGAN ---" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih menu: ";
+    cin >> pilihan;
+}
