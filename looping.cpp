@@ -20,3 +20,14 @@ bool cekPrima(int n) {
     }
     return true;
 }
+
+bool cekFibonacci(int n) {
+    if (n < 0) return false;
+    int a = 0, b = 1;
+    while (a < n) {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return a == n;
+}
